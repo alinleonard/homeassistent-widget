@@ -1,0 +1,44 @@
+{
+  "name": "homeassistant-widget",
+  "version": "1.0.0",
+  "description": "Windows 11 Desktop Widget for Home Assistant",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx electron .",
+    "dev": "npx electron . --dev",
+    "build": "npx electron-builder",
+    "dist": "npx electron-builder --publish=never",
+    "install-deps": "npm install"
+  },
+  "dependencies": {
+    "electron": "^28.0.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.0.0"
+  },
+  "build": {
+    "appId": "com.homeassistant.widget",
+    "productName": "Home Assistant Widget",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "index.html",
+      "styles.css",
+      "script.js",
+      "sw.js",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "author": "User",
+  "license": "MIT"
+}

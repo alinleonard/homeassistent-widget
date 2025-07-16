@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#ff5722;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="256" height="256" rx="40" fill="url(#grad1)"/>
+    <g transform="translate(128,128)">
+        <!-- Sun icon -->
+        <circle cx="0" cy="0" r="40" fill="white" opacity="0.9"/>
+        <g stroke="white" stroke-width="8" stroke-linecap="round" opacity="0.8">
+            <!-- Sun rays -->
+            <line x1="0" y1="-70" x2="0" y2="-85"/>
+            <line x1="50" y1="-50" x2="60" y2="-60"/>
+            <line x1="70" y1="0" x2="85" y2="0"/>
+            <line x1="50" y1="50" x2="60" y2="60"/>
+            <line x1="0" y1="70" x2="0" y2="85"/>
+            <line x1="-50" y1="50" x2="-60" y2="60"/>
+            <line x1="-70" y1="0" x2="-85" y2="0"/>
+            <line x1="-50" y1="-50" x2="-60" y2="-60"/>
+        </g>
+        <!-- Home icon overlay -->
+        <path d="M-20 10 L0 -10 L20 10 L20 25 L-20 25 Z" fill="#ff9800" opacity="0.7"/>
+        <rect x="-12" y="5" width="8" height="15" fill="white"/>
+        <rect x="4" y="8" width="8" height="8" fill="white"/>
+    </g>
+</svg>

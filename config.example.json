@@ -1,0 +1,7 @@
+{
+  "homeAssistant": {
+    "url": "http://YOUR_HOME_ASSISTANT_IP:8123",
+    "bearerToken": "YOUR_BEARER_TOKEN_HERE",
+    "entity": "sensor.your_sensor_name"
+  }
+}
