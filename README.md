@@ -1,5 +1,7 @@
 # Home Assistant Desktop Widget
 
+![Home Assistant Desktop Widget](widget.png)
+
 A beautiful **native Windows desktop application** that displays real-time data from your Home Assistant sensors. Built with Electron for a true native app experience.
 
 ## Features

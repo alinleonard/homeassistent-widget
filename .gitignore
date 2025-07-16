@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
-package-lock.json
+# Note: package-lock.json is included for reproducible builds
+# Run 'npm update' periodically to keep dependencies current
 
 # Configuration with personal information
 config.json
